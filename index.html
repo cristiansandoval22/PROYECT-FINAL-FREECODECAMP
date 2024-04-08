@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="./main/main.css">
+    <title>Proyects final</title>
+</head>
+<body>
+    <h1 id="title">Registrate Gratis!</h1>
+
+    <p id="description">Thank you for taking the time to help us improve the platform!</p>
+
+    <form id="survey-form" action="">
+
+        <div class="form-group">
+            <label id="name-label" for="name"> Nombre:</label> 
+            <input 
+            placeholder="name"
+            id="name" 
+            type="text" 
+            required
+            />
+        </div>    
+
+        <div class="form-group">
+            <label id="email-label" for="email">Email:</label>
+            <input 
+            placeholder="pepito@gmail.com"
+            id="email"  
+            type="email"
+            required
+            />
+        </div>   
+
+        <div class="form-group">
+            <label id="number-label" for="number">Age: (Optional)</label>
+            <input 
+            placeholder="age"
+            min="13" 
+            max="120" 
+            id="number"
+            type="number"
+            /> 
+        </div>
+
+        <div class="form-group">
+            <p>Seleccione una opcion</p>
+            <select name="" id="dropdown">
+                <option value="1">numero 1</option>
+                <option value="2">numero 2</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <p>Seleccione una opcion</p>
+
+            <label for="numero1">
+                <input
+                checked
+                class="inline"
+                value="numero1" 
+                name="type" 
+                type="radio"
+                > numero1
+            </label>
+
+            <label for="numero2">
+                <input 
+                class="inline"
+                value="numero2"
+                name="type" 
+                type="radio"
+                > numero2
+            </label>
+        </div>
+
+        <div class="form-group">
+            <p>aqui va una pregunta</p>
+            <label for="">
+                <input 
+                checked
+                class="inline"
+                type="checkbox" 
+                value="numero1"
+                > numero1
+            </label>
+
+            <label for="">
+                <input 
+                class="inline"
+                type="checkbox" 
+                value="numero2"
+                > numero2
+            </label>
+
+            <label for="">
+                <input 
+                class="inline"
+                type="checkbox" 
+                value="numero3"
+                > numero3
+            </label>
+            
+            <label for="">
+                <input 
+                class="inline"
+                type="checkbox" 
+                value="numero4"
+                > numero4
+            </label>
+
+            <label for="">
+                <input 
+                class="inline"
+                type="checkbox" 
+                value="numero5"
+                > numero5
+            </label>
+        </div>
+
+       <div class="form-group">
+        <p>agrega un comentario</p>
+          <textarea
+            id="comments"
+            class="input-textarea"
+            name="comment"
+            cols="30" rows="10"
+            placeholder="Enter your comment here..."
+          ></textarea>
+        </div>
+        
+
+        <input id="submit" type="submit">
+    </form>
+</body>
+</html>
